@@ -193,8 +193,8 @@ plt.plot(constant_loss_dec, label = 'Decreasing Learning Rate')
 plt.plot(constant_loss_inc, label = 'Increasing Learning Rate')
 plt.legend()
 plt.xlabel('Epochs')
-plt.ylabel('Accuracy')
-plt.title('Accuracy with epoch for different Learning Schemes')
+plt.ylabel('loss')
+plt.title('Loss with epoch for different Learning Schemes')
 plt.show()
 
 
